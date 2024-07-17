@@ -83,7 +83,7 @@ header {
 }
 .banner-title span {
   font-family: var(--Playfair);
-  color: var(--exDark);
+  color: #dcc391;
 }
 .banner p {
   padding: 1rem 0 2rem 0;
