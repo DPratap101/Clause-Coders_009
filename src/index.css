@@ -1,3 +1,308 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styling for the container fluid */
+#container-fluid {
+  background: url("/Clause-Coders_009/Images/Home\ Page.webp");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+.logonav{
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+}
+
+/* Styling for the logo */
+.logo img {
+  width: 150px;
+  align-items: center;
+  display: flex;
+}
+
+/* Styling for the navigation items */
+.navbar .menu-icon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #ffffff;
+  background-color: #ed7d3d;
+  border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar .menu-icon {
+      display: block;
+      
+  }
+
+  .nav-list {
+      display: none;
+      width: 100%;
+      text-align: center;
+  }
+
+  .nav-list.show {
+      display: block;
+  }
+}
+
+
+/* Styling for the login button */
+.login > button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.login > button:hover {
+  background: #ed7d3d;
+  box-shadow: 0 0 30px 5px rgba(189, 106, 48, 0.745);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.login > button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.login > button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.login > button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+
+
+/* Styling for the header section */
+.header {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.header h1 h2 {
+  font-size: 4vw;
+  margin-bottom: 1.5vh;
+}
+
+
+.header h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.header h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+
+ .header h2  {
+  transition: 0.5s ease-out;
+}
+.header h2:hover :nth-child(1) {
+  margin-right: 5px;
+}
+
+.header h2:hover :nth-child(1) {
+  margin-left: 30px;
+}
+.header h2:hover  {
+  color: #ffffff;
+  text-shadow: 0 0 10px #fb8f0b, 0 0 20px #ffd606, 0 0 40px #ff7700;
+}
+.header p {
+  font-size: 1.3vw;
+  padding-bottom: 1.8vh;
+  letter-spacing: 1px;
+} 
+ /* DEMO-SPECIFIC STYLES */
+ .header h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Centers the text */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  width: 28ch; /* Adjust the width to match the character length */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 28ch; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  /* background: rgb(224, 0, 0); */
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 6px;
+  border: 1px solid #DDE3EC;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #ffffff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-email-subscription-form {
+  display: flex;
+}
+
+.formbold-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 13px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #ff7700;
+  color: white;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.clients{
+  background-color: #57a7c2;
+  max-width: 100%;
+  /* margin: auto; */
+  padding: 20px;
+  /* border: #ed7d3d solid 1px; */
+}
+.col-md-2 > img{
+  width: 200px;
+  border-radius: 10px;
+}
