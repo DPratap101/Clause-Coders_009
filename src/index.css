@@ -105,7 +105,7 @@
  
  
  /* Styling for the login button */
- .login > button {
+ .login > a > button {
    position: relative;
    padding: 10px 20px;
    border-radius: 20px;
@@ -122,7 +122,7 @@
    -moz-transition: all 0.2s ease-in;
    transition: all 0.2s ease-in;
  }
- .login > button:hover {
+ .login > a > button:hover {
    background: #ed7d3d;
    box-shadow: 0 0 30px 5px rgba(189, 106, 48, 0.745);
    -webkit-transition: all 0.2s ease-out;
@@ -130,13 +130,13 @@
    transition: all 0.2s ease-out;
  }
  
- .login > button:hover::before {
+ .login > a > button:hover::before {
    -webkit-animation: sh02 0.5s 0s linear;
    -moz-animation: sh02 0.5s 0s linear;
    animation: sh02 0.5s 0s linear;
  }
  
- .login > button::before {
+ .login > a > button::before {
    content: '';
    display: block;
    width: 0px;
@@ -170,7 +170,7 @@
    }
  }
  
- .login > button:active {
+ .login > a > button:active {
    box-shadow: 0 0 0 0 transparent;
    -webkit-transition: box-shadow 0.2s ease-in;
    -moz-transition: box-shadow 0.2s ease-in;
