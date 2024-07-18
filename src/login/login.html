@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background: #bdc3c7;
-           
-            background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-            
-            background: linear-gradient(to right, #2c3e50, #bdc3c7); */
-           
-          
+        body {
+            background: #4e54c8;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #8f94fb, #4e54c8);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
         }
+
         @keyframes anim1 {
             0% {
                 transform: scale(0);
             }
-            50%{
-                transform: scale(1.2);
+
+            50% {
+                transform: scale(1.01);
             }
 
             100% {
                 transform: scale(0);
             }
         }
-        .a3 button:hover{
+
+        .a3 button:hover {
             background-color: blue;
         }
 
@@ -53,7 +57,7 @@
             height: 500px;
             border-radius: 50px;
             display: flex;
-            box-shadow: 10px 10px 10px lightblue;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 
 
@@ -63,10 +67,10 @@
         .a1 {
             width: 800px;
             height: 550px;
-            
+
             display: grid;
             place-items: center;
-           
+
 
         }
 
@@ -87,6 +91,10 @@
 
 
             border: none;
+        }
+        input:hover{
+            transform: scale(1.09);
+            transition: .5s ease-in-out;
         }
 
         input {
@@ -119,7 +127,6 @@
             margin-top: 40px;
 
         }
-        
     </style>
 </head>
 
@@ -128,18 +135,20 @@
         <div class="a1">
             <div class="a2">
                 <div class="a3">
-                   
+
                     <div>
                         <h2>Welcome Back</h2><br>
                         <h4>Please Enter your Account Details</h4>
                     </div>
 
                     <div>
-                        <div style="margin-bottom: 10px;">Email</div> <input type="email" placeholder="Enter Your Email">
+                        <div style="margin-bottom: 10px; border: none;">Email</div> <input type="email"
+                            placeholder="Enter Your Email">
                     </div>
 
                     <div>
-                        <div style="margin-bottom: 10px;">Password</div><input type="password" id="password" placeholder="********">
+                        <div style="margin-bottom: 10px;">Password</div><input type="password" id="password"
+                            placeholder="********">
                         <h6 style="max-width: 600px; display: flex;align-items: center; gap: 10px;">Keep me logged
                             in<input type="checkbox" style="width: 10px;"></h6>
 
@@ -151,7 +160,8 @@
                 </div>
 
                 <div>
-                    <h1 style="color: white;animation: anim1 2s infinite;text-shadow: 2px 2px 4px #000000;">To Boost Performance You need Task Manager</h1>
+                    <h1 style="color: white;animation: anim1 3s infinite;text-shadow: 2px 2px 4px #000000;">To Boost
+                        Performance You need Task Manager</h1>
                     <br><br><br>
                     <h4>The first way to start is to take first step </h4>
                 </div>

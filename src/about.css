@@ -15,6 +15,7 @@ a{
     text-decoration: none;
 }
 
+
 #team{
     width: 100%;
     min-height: 100vh;
@@ -180,7 +181,7 @@ footer {
     margin-bottom: 1.4rem;
   }
   .social-links a {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     color: #fff;
     display: block;
     width: 108px;
