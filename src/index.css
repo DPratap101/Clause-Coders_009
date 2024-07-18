@@ -26,7 +26,7 @@
   align-items: center;
   max-width: 1300px;
   margin: auto;
-  padding: 20px;
+  padding: 18px;
 }
 .logonav{
   display: flex;
@@ -53,7 +53,7 @@
 .nav-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px 80px;
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@
   display: block;
   color: #fff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 30px;
   text-decoration: none;
   transition: all .2s ease-in-out;
 }
@@ -74,6 +74,14 @@
   color: #ffffff;
   background-color: #ed7d3d;
   border-radius: 30px;
+}
+
+
+
+@media (width <= 800px){
+  .container-fluid{
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 768px) {
