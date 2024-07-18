@@ -4,14 +4,14 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   color: white;
+   color: #ffffff;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-family: "Poppins" , sans-serif;
  }
  
  /* Styling for the container fluid */
  #container-fluid {
-   background: url("/Clause-Coders_009/Images/Home\ Page.webp");
+   background: url("/Clause-Coders_009/src/images_/Images/Home\ Page.webp");
    height: auto;
    width: 100%;
    background-size: cover;
@@ -316,6 +316,105 @@
    width: 200px;
    border-radius: 10px; 
  }
+
+
+
+ /* Sliding Css Start */
+  
+
+.tutorial {
+  height: auto;
+  max-width: 1300px;    
+  margin: auto;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+.tutorial > h1{
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  color: black;
+  font-size: 35px;
+
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
+  /* border: 2px solid red; */
+  height: 180px;
+  padding: 15px;
+}
+
+.slide {
+  display: flex;
+  border-radius: 1px solid black;
+  gap: 30px;
+  /* height: auto; */
+  animation: scroll 25s linear infinite;
+  animation-delay: calc(25s / -1);
+
+}
+
+.slide:nth-child(2) {
+  animation: scroll2 25s linear infinite;
+  animation-delay: calc(25s / -2);
+}
+
+.item {
+  width: 170px;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: rgba(147, 55, 55, 0.192) 0px 0px 15px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-200%);
+  }
+}
+
+
+ /* Sliding Css End */
+
+ /* start */
+.introduction{
+  background-color: #ac3131;
+  padding: 10px;
+  align-items: first baseline;
+  
+}
+.col-md-6 > img{
+  width: 100%;
+  height: 100%;
+}
+ .col-md-6 > h1{
+  text-align: justify;
+  color: rgb(255, 89, 6);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ .col-md-6 > p{
+  text-align: justify;
+  color: black;
+
+ }
+
+
  /* Kaif css end */
 
 
