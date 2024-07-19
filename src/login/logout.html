@@ -7,57 +7,72 @@
     <title>Document</title>
     <style>
         body {
-            background-image: url("https://c0.wallpaperflare.com/preview/134/372/59/abstract-background-copyspace-brainstorm.jpg");
-            background-size: cover;
+            background: #4e54c8;
+
+            background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+
+            background: linear-gradient(to right, #8f94fb, #4e54c8);
+
+
+
         }
+        
+
+
 
         @keyframes anim1 {
             0% {
-                transform: scale(0.50);
+                transform: scale(0);
             }
 
-
-            100% {
+            50% {
                 transform: scale(1.01);
             }
+
+            100% {
+                transform: scale(0);
+            }
         }
+
+
+
 
         .a3 button:hover {
             background-color: blue;
         }
 
+
+
+
         * {
             margin: 0px;
             padding: 0px;
             font-family: sans-serif;
-
         }
+
+
+
 
         .container {
-            max-width: 1000px;
+            max-width: 800px;
             margin: auto;
             border: none;
-            display: grid;
-            place-items: center;
-
-
-
         }
 
+
+
+        
         .a2 {
 
             opacity: 1;
-
-
+            margin-top: 50px;
+            backdrop-filter: blur(300px);
             border: none;
-            width: 800px;
+            width: 750px;
             height: 500px;
             border-radius: 50px;
             display: flex;
-            justify-content: center;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 100px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 
 
@@ -75,15 +90,14 @@
         }
 
         .a3 {
-           
-            font-style: oblique;
+            * {
+                color: rgb(252, 252, 252);
+            }
+
             display: flex;
             flex-direction: column;
             gap: 30px;
-            height: 390px;
             padding: 40px;
-           
-          
         }
 
         ::placeholder {
@@ -110,8 +124,8 @@
         }
 
         .a3 button {
-            background-color: rgb(233, 92, 79);
-            border: 2px solid black;
+            background-color: rgb(253, 141, 130);
+
             width: 320px;
             height: 40px;
             border: none;
@@ -158,9 +172,6 @@
                     <div>
                         <button>Sign in</button>
                     </div>
-                    <div style="margin-left: 100px;"><span><i style="margin-left: 10px;" class="fa-brands fa-google fa-lg">  <i  style="margin-left: 10px;"
-                                        class="fa-brands fa-github fa-lg"></i></i> <i style="margin-left: 10px;"
-                                class="fa-brands fa-twitter fa-xl"></i></span></div>
 
                 </div>
 
@@ -169,12 +180,10 @@
                         Performance You need Task Manager</h1>
                     <br><br><br>
                     <h4>The first way to start is to take first step </h4>
-
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/1097cbaf73.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
