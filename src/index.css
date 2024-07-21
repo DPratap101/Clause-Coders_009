@@ -50,7 +50,7 @@
  
  /* Styling for the container fluid */
  #container-fluid {
-   background: url("/Clause-Coders_009/src/images_/Images/Home\ Page.webp");
+   background: url("./assests/Home\ Page.webp");
    height: auto;
    width: 100%;
    background-size: cover;
