@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("https://c0.wallpaperflare.com/preview/134/372/59/abstract-background-copyspace-brainstorm.jpg");
+            background-size: cover;
+           
+        }
+
+        @keyframes anim1 {
+            0% {
+                transform: scale(0.50);
+            }
+
+
+            100% {
+                transform: scale(1.01);
+            }
+        }
+
+        .a3 button:hover {
+            background-color: blue;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            border: none;
+            display: grid;
+            place-items: center;
+
+
+
+        }
+
+        .a2 {
+
+            opacity: 1;
+
+
+            border: none;
+            width: 800px;
+            height: 500px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 100px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+
+
+
+        }
+
+        .a1 {
+            width: 800px;
+            height: 550px;
+
+            display: grid;
+            place-items: center;
+
+
+        }
+
+        .a3 {
+           
+            font-style: oblique;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            height: 390px;
+            padding: 40px;
+           
+          
+        }
+
+        ::placeholder {
+
+
+
+
+            border: none;
+        }
+
+        input:hover {
+            transform: scale(1.09);
+            transition: .5s ease-in-out;
+        }
+
+        input {
+            width: 300px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            background-color: black;
+            padding-left: 20px;
+            font-family: sans-serif;
+        }
+
+        .a3 button {
+            background-color: rgb(233, 92, 79);
+            border: 2px solid black;
+            width: 320px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            font-size: larger;
+            font-family: sans-serif;
+        }
+
+        .a2>div:nth-of-type(2) {
+
+            height: 400px;
+            width: 300px;
+            box-sizing: border-box;
+            padding: 40px;
+            margin-top: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="a1">
+            <div class="a2">
+                <div class="a3">
+
+                    <div>
+                        <h2>Welcome Back</h2><br>
+                        <h4>Please Enter your Account Details</h4>
+                    </div>
+
+                    <div>
+                        <div style="margin-bottom: 10px; border: none;">Email</div> <input type="email"
+                            placeholder="Enter Your Email">
+                    </div>
+
+                    <div>
+                        <div style="margin-bottom: 10px;">Password</div><input type="password" id="password"
+                            placeholder="********">
+                        <h6 style="max-width: 600px; display: flex;align-items: center; gap: 10px;">Keep me logged
+                            in<input type="checkbox" style="width: 10px;"></h6>
+
+                    </div>
+                    <div>
+                        <button>Sign in</button>
+                    </div>
+                    <div style="margin-left: 100px;"><span><i style="margin-left: 10px;" class="fa-brands fa-google fa-lg">  <i  style="margin-left: 10px;"
+                                        class="fa-brands fa-github fa-lg"></i></i> <i style="margin-left: 10px;"
+                                class="fa-brands fa-twitter fa-xl"></i></span></div>
+
+                </div>
+
+                <div>
+                    <h1 style="color: white;animation: anim1 3s infinite;text-shadow: 2px 2px 4px #000000;">To Boost
+                        Performance You need Task Manager</h1>
+                    <br><br><br>
+                    <h4>The first way to start is to take first step </h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1097cbaf73.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

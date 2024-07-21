@@ -11,7 +11,7 @@
 <body>
     <nav class="mainnav">
         <div class="logo">
-           <img src="logo.png" alt="" >
+           <img src="logoblack.png" alt="" >
         </div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
@@ -23,7 +23,7 @@
            <li><a href="../about.html">About</a></li>
            <li><a href="#">User</a></li>
            <li><a href="#">Feedback</a></li>
-           <li><i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i></li>
+           <li><i class="fa-solid fa-user fa-xl" style="color: black;"  onmouseover="this.style.color='orangered';" onmouseout="this.style.color='black';"></i></li>
            
         </ul>
         
@@ -38,19 +38,19 @@
             <nav class="mt-8">
                 <h3 class="text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">Issues</h3>
                 <div class="mt-2 -mx-3">
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="dash.html" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">All</span>
                         <span class="text-sm text-gray-700 font-semibold">36 </span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Assigned to me</span>
                         <span class="text-sm text-gray-700 font-semibold">2 </span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Created by me</span>
                         <span class="text-sm text-gray-700 font-semibold">4 </span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="cal.html" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Calender View</span>
                         <span class="text-sm text-gray-700 font-semibold"></span>
                     </a>
@@ -58,24 +58,24 @@
                 <!-- second part -->
                 <h3 class="mt-8 text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">Tags</h3>
                 <div class="mt-2 -mx-3">
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Bug</span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Feature request</span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">High Priority</span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Enhancement</span>
                     </a>
-                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-teal-500 py-2 px-4 translate-x-full transition duration-500">
+                    <a href="#" class="flex justify-between items-center rounded-lg hover:bg-orange-500 py-2 px-4 translate-x-full transition duration-500">
                         <span class="text-sm font-medium text-gray-900">Documentation</span>
                     </a>
                 </div>
                 <button
-                    class="flex items-center text-sm font-medium text-gray-900 mt-2 hover:bg-teal-500 px-2 py-2 rounded">
+                    class="flex items-center text-sm font-medium text-gray-900 mt-2 hover:bg-orange-500 px-2 py-2 rounded">
                     <svg class="text-gray-900" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.279 5.333v14M5.279 12.334h14" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
@@ -158,6 +158,7 @@
                         <!-- all issue and avatar ends -->
                         <div class="flex">
                             <span class="p-1 inline-flex border bg-gray-200 rounded-md">
+                                <a href="list.html">
                                 <button class="px-2 py-1 rounded">
                                     <svg class="text-gray-600" width="24" height="24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -165,6 +166,7 @@
                                             d="M3 12h18M3 6h18M3 18h18" />
                                     </svg>
                                 </button>
+                            </a>
                                 <button class="px-2 py-1 bg-white rounded shadow">
                                     <svg class="text-gray-600" width="25" height="25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -173,14 +175,16 @@
                                     </svg>
                                 </button>
                             </span>
-                            <button
-                                class="ml-3 flex items-center justify-between text-sm font-medium text-white bg-gray-800 hover:bg-teal-500 px-4 py-2 rounded-md">
-                                <svg class="h-6 w-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        d="M12.279 5.333v14M5.279 12.334h14" />
-                                </svg>
-                                <span class="text-sm text-gray-200"><a href="">New Issue</a></span>
-                            </button>
+                            
+                                <button
+								class="ml-3 flex items-center justify-between text-sm font-medium text-white bg-gray-800 hover:bg-orange-500 px-4 py-2 rounded-md">
+								<svg class="h-6 w-6" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										d="M12.279 5.333v14M5.279 12.334h14" />
+								</svg>
+								<span class="text-sm text-gray-200"><a href="issue.html">New Issue</a></span>
+							</button>
+                          
                         </div>
                     </div>
                 </header>
