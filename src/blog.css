@@ -9,6 +9,15 @@
   }
 
 }
+@keyframes anim2 {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1.7);
+  }
+
+}
 :root {
   --Playfair: "Playfair Display", serif;
   --Quicksand: "Quicksand", sans-serif;
@@ -295,6 +304,9 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 1.4rem;
+  animation: anim2 2s;
+  animation-timeline: view();
+  animation-range: 0px 400px;
 }
 .social-links a {
   border: 2px solid var(--dark);
