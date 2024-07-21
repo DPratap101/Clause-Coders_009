@@ -7,7 +7,7 @@ TaskMentor is a task management tool designed to streamline task creation, assig
 Frontend
 
 ## Deployed App
-Frontend: https://deployed-site.whatever
+Frontend: https://669d252012f07f0115b35ab0--effulgent-tarsier-11a4b8.netlify.app/
 
 ## Directory Structure
 Clause Coders_009/
@@ -30,7 +30,7 @@ Clause Coders_009/
 
 
 ## Video Walkthrough of the Project
-Attach a very short video walkthrough of all of the features (1 - 3 minutes).
+[Attached a video walkthrough of all of the features](https://youtu.be/LmKFrdgN8t4)
 
 ## Video Walkthrough of the Codebase
 Attach a very short video walkthrough of the codebase (1 - 5 minutes).
@@ -49,12 +49,12 @@ Prioritized simplicity and ease of use in the user interface design.
 
 
 ## Installation & Getting Started
-No installation is necessary. To check the deployed link, visit https://deployed-site.whatever or open index.html inside the source directory.
+No installation is necessary. To check the deployed link, visit https://669d252012f07f0115b35ab0--effulgent-tarsier-11a4b8.netlify.app/ or open index.html inside the source directory.
 
 ## Usage
 To use TaskMentor, follow these steps:
 1. Access the Application
-    Open the Deployed Site: Visit https://deployed-site.whatever to access TaskMentor.
+    Open the Deployed Site: Visit https://669d252012f07f0115b35ab0--effulgent-tarsier-11a4b8.netlify.app/ to access TaskMentor.
     Task Creation and Assignment
 
 2. Create a Task:
