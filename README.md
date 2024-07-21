@@ -52,14 +52,65 @@ Prioritized simplicity and ease of use in the user interface design.
 No installation is necessary. To check the deployed link, visit https://deployed-site.whatever or open index.html inside the source directory.
 
 ## Usage
-Provide instructions and examples on how to use your project.
+To use TaskMentor, follow these steps:
+1. Access the Application
+    Open the Deployed Site: Visit https://deployed-site.whatever to access TaskMentor.
+    Task Creation and Assignment
+
+2. Create a Task:
+    Click on the "Add Task" button.
+    Fill in the task details, such as title, description, due date, priority, and assignee.
+    Click "Save" to add the task.
+
+3. Assign a Task:
+    Select a task from the list.
+    Choose an assignee from the dropdown menu.
+    Click "Assign" to save the changes.
+
+4. Task Views
+    1. List View:
+        Navigate to the "List View" tab.
+        View all tasks in a list format.
+        Use the sort and filter options to organize tasks by due date, priority, or assignee.
+
+5. Kanban View:
+    Navigate to the "Kanban View" tab.
+    View tasks in a Kanban board format with columns for different stages (e.g., To Do, In Progress, Done).
+    Drag and drop tasks between columns to update their status.
+
+6. Calendar View:
+    Navigate to the "Calendar View" tab.
+    View tasks on a calendar based on their due dates.
+    Integration with Google Calendar
+    
+## Example Usage
+1. Adding a Task:
+    Click "Add Task".
+    Enter the task title: "Design Homepage".
+    Enter the description: "Create a responsive homepage design".
+    Assign the task to "John Doe".
+    Click "create".
+
+2. Viewing Tasks in Kanban View:
+    Navigate to the "Kanban View".
+    
+3. View Tasks with Google Calendar
+
+
+## screenshots of the application in different views:
+Homepage:![Screenshot for index.html path](./src/assests/Screenshot%20home.png)
+List View:![Screenshot for index.html path](./src/assests/Screenshot%20(list).png)
+Kanban View:![Screenshot for index.html path](./src/assests/Screenshot(kanban).png)
+Calendar View:![Screenshot for index.html path](./src/assests/Screenshot%20calender.png)
+Create new issue:![Screenshot for index.html path](./src/assests/Screenshot(createIssue).png)
+
 
 ## bash
 # Open index.html in a browser
-Include screenshots as necessary.
+![Screenshot for index.html path](./src/assests/Screenshot01.png)
 
 ## Credentials
-Provide user credentials for authenticated pages (if any).
+No Credentials needed
 
 ## APIs Used
 The application uses Google Calendar integration to manage and synchronize tasks with users' Google Calendar.
